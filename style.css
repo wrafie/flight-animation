@@ -65,9 +65,9 @@ body {
     top: 0;
     left: 0;
     opacity: .8;
-    width: 120px;
+    width: 140px;
     height: 100px;
-    animation: animate-cloud 1s linear infinite;
+    /* animation: animate-cloud 1s linear infinite; */
 }
 
 @keyframes animate-cloud {
@@ -83,18 +83,18 @@ body {
 
 .cloud img:nth-child(1) {
     top: 60px;
-    animation-delay: -2s;
-    animation: animate-cloud 1.25s linear infinite;
+    /* animation-delay: 2s; */
+    animation: animate-cloud 2s linear infinite;
 }
 
 .cloud img:nth-child(2) {
     top: 100px;
-    animation-delay: -1s;
+    /* animation-delay: 6s; */
     animation: animate-cloud 1s linear infinite;
 }
 
 .cloud img:nth-child(3) {
     top: 155px;
-    animation-delay: -1.5s;
-    animation: animate-cloud .75s linear infinite;
+    /* animation-delay: 10s; */
+    animation: animate-cloud 3s linear infinite;
 }
